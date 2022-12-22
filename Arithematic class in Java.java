@@ -1,5 +1,4 @@
 import java.util.Scanner;  
-
 public class Main{
     static int add(int a, int b){
         int c = a + b;
