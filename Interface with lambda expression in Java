@@ -1,0 +1,13 @@
+// You are using Java
+interface Saya{
+    public String say(String name);
+}
+
+class Main{
+    public static void main(String[] args){
+        Saya s = (name) -> {            // can pass 1 or more parameter and even no parameter
+            return "Hi" + name;
+        };
+        System.out.println(s.say(" Arjun"));
+    }
+}
