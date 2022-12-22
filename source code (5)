@@ -1,0 +1,22 @@
+class Out{
+    final int i=10;
+    public void print(){
+        System.out.println("OuterClass value " + i);
+    
+    class In{
+        public void display(){
+            System.out.println("Inner Class value " + i);
+        }
+    }
+    In obj1 = new In();
+    obj1.display();
+    }
+}
+
+class Main{
+    public static void main(String [] args){
+        Out obj = new Out();
+        obj.print();
+        
+    }
+}
