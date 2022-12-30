@@ -1,0 +1,18 @@
+//HTML CODE
+
+<html>
+<body style = "background-color:red">
+<h1>Heading</h1>
+<p>Paragraph<p>
+</body>
+</html>
+
+
+//CSS CODE
+
+h1{
+    color : blue;
+}
+p{
+    color : white;
+}
